@@ -10,7 +10,7 @@ import AccessAlarmIcon from "@mui/icons-material/AccessAlarm";
 import {Container} from "@mui/material";
 
 const AthletPaper = (props: paperInterface) => {
-  const {name, weightclass} = props;
+  const {name} = props;
   const width = "128px";
   const height = "128px";
   return (
