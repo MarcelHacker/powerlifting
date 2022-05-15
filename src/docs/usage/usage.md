@@ -1,3 +1,0 @@
-## Guide
-
-John Cena

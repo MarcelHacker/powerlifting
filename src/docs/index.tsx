@@ -1,11 +1,11 @@
-import "./usage/usage.md";
+import Usage from "../docs/usage/Usage";
 
 const Documentation = () => {
   return (
     <div>
       DOC
       <div>
-        <code>Code</code>
+        <Usage />
       </div>
     </div>
   );
