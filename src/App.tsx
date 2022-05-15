@@ -1,12 +1,18 @@
 import React from "react";
 import "./App.css";
+import {Routes, Route, Outlet} from "react-router-dom";
 
 import Docs from "./pages/Docs";
 
 function App() {
   return (
     <div className="App">
-      <Docs />
+      <Routes>
+        <Route path="/" element={"home"}>
+          <Route path="/docs" element={<Docs />} />
+          <Route path="*" element={"nix"} />
+        </Route>
+      </Routes>
     </div>
   );
 }
