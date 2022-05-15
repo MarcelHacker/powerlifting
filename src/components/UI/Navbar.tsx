@@ -117,7 +117,7 @@ const ResponsiveAppBar = () => {
           </Typography>
           <Box sx={{flexGrow: 1, display: {xs: "none", md: "flex"}}}>
             {pages.map((page) => (
-              <Link to={page.toLocaleLowerCase()} key={page}>
+              <Link to={"/" + page.toLocaleLowerCase()} key={page}>
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
