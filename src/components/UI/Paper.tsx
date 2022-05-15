@@ -7,9 +7,7 @@ import Paper from "@mui/material/Paper";
 import paperInterface from "../../interfaces/AthletePaper";
 
 const AthletPaper = (props: paperInterface) => {
-  //const {name, weightclass} = props;
-  const name = "Marcel";
-  const weightclass = "105 kg";
+  const {name, weightclass} = props;
   const width = "128px";
   const height = "128px";
   return (
@@ -25,7 +23,7 @@ const AthletPaper = (props: paperInterface) => {
       }}
     >
       <Paper elevation={2}>
-        {props.name}
+        {name}
         <img src="../src/assets/marcel.jpeg" alt="Marcel" width={width} height={height} />
         {weightclass}
       </Paper>
