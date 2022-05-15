@@ -9,6 +9,7 @@ const Docs = () => {
     <div>
       <Header />
       <AthletPaper name={data[0].name} weightclass={data[0].weightclass} />
+      
       <Footer />
     </div>
   );
