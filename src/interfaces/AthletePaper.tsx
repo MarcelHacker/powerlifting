@@ -1,4 +1,5 @@
 interface paperInterface {
+  id: number;
   name: string;
   weightclass: string;
 }

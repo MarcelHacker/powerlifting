@@ -4,12 +4,12 @@ import AthletPaper from "../components/UI/Paper";
 import paperInterface from "../interfaces/AthletePaper";
 
 const Docs = () => {
-  const data: paperInterface[] = [{name: "Marcel", weightclass: "105 kg"}];
+  const data: paperInterface[] = [{id: 0, name: "Marcel", weightclass: "105 kg"}];
   return (
     <div>
       <Header />
-      <AthletPaper name={data[0].name} weightclass={data[0].weightclass} />
-      
+      <AthletPaper id={data[0].id} name={data[0].name} weightclass={data[0].weightclass} />
+
       <Footer />
     </div>
   );
