@@ -1,3 +1,7 @@
+## Powerlifting Application
+
+Application for powerlifting coaches. Which makes Check In's simpler and better!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
