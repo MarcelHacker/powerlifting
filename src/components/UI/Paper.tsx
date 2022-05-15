@@ -4,8 +4,9 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
+import paperInterface from "../../interfaces/AthletePaper";
 
-const AthletPaper = (props: Object) => {
+const AthletPaper = (props: paperInterface) => {
   //const {name, weightclass} = props;
   const name = "Marcel";
   const weightclass = "105 kg";
@@ -24,7 +25,7 @@ const AthletPaper = (props: Object) => {
       }}
     >
       <Paper elevation={2}>
-        {name}
+        {props.name}
         <img src="../src/assets/marcel.jpeg" alt="Marcel" width={width} height={height} />
         {weightclass}
       </Paper>
