@@ -5,7 +5,8 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 
-const AthletPaper = () => {
+const AthletPaper = (props: Object) => {
+  const {name, weightclass} = props;
   return (
     <Box
       sx={{
@@ -18,7 +19,9 @@ const AthletPaper = () => {
         },
       }}
     >
-      <Paper elevation={2}>Marcel</Paper>
+      <Paper elevation={2}>
+        {name} {weightclass}
+      </Paper>
     </Box>
   );
 };
