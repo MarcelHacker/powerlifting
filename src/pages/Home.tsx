@@ -6,6 +6,7 @@ const Docs = () => {
   return (
     <div>
       <Header />
+      Home
       <FloatingActionButton />
       <Footer />
     </div>

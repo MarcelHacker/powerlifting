@@ -14,7 +14,6 @@ import AdbIcon from "@mui/icons-material/Adb";
 import {Link} from "react-router-dom";
 
 const pages = ["Home", "Pricing"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
@@ -31,6 +30,7 @@ const ResponsiveAppBar = () => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
+          <img src="" alt="" />
           <AdbIcon sx={{display: {xs: "none", md: "flex"}, mr: 1}} />
           <Typography
             variant="h6"

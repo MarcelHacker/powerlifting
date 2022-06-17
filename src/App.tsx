@@ -3,6 +3,7 @@ import "./App.css";
 import {Routes, Route, Outlet} from "react-router-dom";
 
 import Home from "./pages/Home";
+import Pricing from "./pages/Pricing";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Route path="" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/results" element={"nix"} />
-        <Route path="/pricing" element={<Home />} />
+        <Route path="/pricing" element={<Pricing />} />
         <Route path="*" element={"nix"} />
       </Routes>
     </div>
