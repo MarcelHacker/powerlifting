@@ -1,15 +1,16 @@
+import "./Home.css";
 import Header from "../components/UI/Header";
 import Footer from "../components/UI/Footer";
 import FloatingActionButton from "../components/UI/FloatingActionButton";
 
-const Docs = () => {
+const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Header />
-      Home
+      <img src={require("../assets/bench.png")} height="700" width="1200"></img>
       <FloatingActionButton />
       <Footer />
     </div>
   );
 };
-export default Docs;
+export default Home;

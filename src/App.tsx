@@ -3,7 +3,10 @@ import "./App.css";
 import {Routes, Route, Outlet} from "react-router-dom";
 
 import Home from "./pages/Home";
-import Pricing from "./pages/Pricing";
+import OnlineCoaching from "./pages/OnlineCoaching";
+import Results from "./pages/Results";
+import Contact from "./pages/Contact";
+import Qualification from "./pages/Qualifications";
 
 function App() {
   return (
@@ -11,8 +14,10 @@ function App() {
       <Routes>
         <Route path="" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/results" element={"nix"} />
-        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/coaching" element={<OnlineCoaching />} />
+        <Route path="/results" element={<Results />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/qualifications" element={<Qualification />} />
         <Route path="*" element={"nix"} />
       </Routes>
     </div>
