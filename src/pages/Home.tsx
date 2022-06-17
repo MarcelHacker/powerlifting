@@ -7,7 +7,10 @@ const Home = () => {
   return (
     <div className="home">
       <Header />
-      <img src={require("../assets/bench.png")} height="700" width="1200"></img>
+      <div>
+        <img src={require("../assets/bench.jpg")} height="700" width="1200"></img>
+        <p>Marcel Hacker - Powerlifting Coach</p>
+      </div>
       <FloatingActionButton />
       <Footer />
     </div>

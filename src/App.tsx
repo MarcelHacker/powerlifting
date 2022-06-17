@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import OnlineCoaching from "./pages/OnlineCoaching";
 import Results from "./pages/Results";
 import Contact from "./pages/Contact";
-import Qualification from "./pages/Qualifications";
+import Qualification from "./pages/Qualification";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path="/coaching" element={<OnlineCoaching />} />
         <Route path="/results" element={<Results />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/qualifications" element={<Qualification />} />
+        <Route path="/qualification" element={<Qualification />} />
         <Route path="*" element={"nix"} />
       </Routes>
     </div>
