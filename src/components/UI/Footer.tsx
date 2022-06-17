@@ -10,7 +10,7 @@ const Copyright = () => {
     <Typography variant="body2" color="text.secondary">
       {"Copyright © "}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
+        Megalodon Powerlifting
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -40,7 +40,7 @@ const Footer = () => {
         }}
       >
         <Container maxWidth="sm">
-          <Typography variant="body1">Powerlifting Coaches</Typography>
+          <Typography variant="body1">Marcel Hacker</Typography>
           <Copyright />
         </Container>
       </Box>
